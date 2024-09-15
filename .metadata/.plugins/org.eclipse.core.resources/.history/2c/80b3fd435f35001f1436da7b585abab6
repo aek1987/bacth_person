@@ -1,0 +1,15 @@
+package com.example.model;
+
+import jakarta.persistence.GenerationType;
+
+@jakarta.persistence.Entity
+public class Person {
+
+    @org.springframework.data.annotation.Id
+    @jakarta.persistence.GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String firstName;
+    private String lastName;
+
+    // Getters and Setters
+}

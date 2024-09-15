@@ -1,0 +1,3 @@
+spring.application.name=cntsid
+
+spring.application.port=8089
