@@ -32,7 +32,7 @@ public class BatchController {
         this.job = job;
     }
 
-	    @GetMapping("/start")
+	    @GetMapping("/start2")
 	    @ResponseBody
 	    public String handle() {
 	        try {
